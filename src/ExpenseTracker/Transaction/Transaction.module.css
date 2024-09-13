@@ -1,0 +1,51 @@
+.bottomSection{
+    color:black;
+    background-color: #ffffff;
+    margin-left: 1rem;
+    border-radius: 10px;
+    height: 400px;
+    margin-bottom: 2rem;
+}
+.listDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstDiv
+{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lastDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+}
+.headLine{
+    display: flex;
+    font-family: Ubuntu;
+font-style: italic;
+
+}
+.icons{
+    height: 50px;
+    width: 50px;
+    background-color: #9B9B9B;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .editExpense{
+    width: 95%;
+    padding-left: 20px;
+}
+    /* style={{width:"95%",paddingLeft:"20px"}} */
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

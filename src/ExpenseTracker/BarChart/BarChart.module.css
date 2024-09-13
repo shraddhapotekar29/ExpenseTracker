@@ -1,0 +1,26 @@
+.headLine{
+    display: flex;
+    font-family: Ubuntu;
+font-style: italic;
+padding-left: 1rem;
+
+}
+.bottomSection {
+    color: black;
+    background-color: #ffffff;
+    margin-left: 1rem;
+    border-radius: 10px;
+    height: 400px; 
+    width: 500px;
+    margin-bottom: 2rem;
+    
+  }
+  
+  @media screen and (max-width: 500px) {
+    .bottomSection {
+      width: 100vw; 
+    }
+  }
+  
+       
+     

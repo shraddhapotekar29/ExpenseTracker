@@ -1,0 +1,98 @@
+.expenseDiv{
+    background-color: #3B3B3B;
+    width: 100vw;
+    /* height: 100%; */
+    border: 1px solid #9B9B9B;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 1rem;
+}
+.bottomSection{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.pie{
+    width: 20%;
+    height: 200px;
+}
+.walletWrapper{
+    /* height: 250px; */
+    background-color: #626262;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    
+}
+.wallet{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;  */
+     align-items: center;
+     background-color: #9B9B9B;
+    width: 350px;
+    height: 150px;
+    border-radius: 15px; 
+    
+}
+.wallet p{
+    font-size: 30px;
+    font-weight: 400; 
+}
+.wallet button{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 15px;
+    
+}
+.transaction{
+    width: 60%;
+}
+.pieData{
+    width: 40%;
+}
+.btn1{
+    border: 1px solid #B5DC52; 
+    background: linear-gradient(90deg, #B5DC52 0%, #89E148 100%);
+
+}
+.btn2{
+    border: 1px solid #FF9595; 
+    background: linear-gradient(90deg, #FF9595 0%, #FF4747 80%, #FF3838 100%);
+
+}
+.balance{
+    background-color: #EFEFEFD9;
+    height: 200px;
+    position: fixed;
+}
+@media screen and (max-width:500px) {
+    .expenseDiv{
+        width: 100%;
+    }
+    .wallet{
+        margin-bottom: 2rem;
+    }
+    .pie{
+        width:100%;
+    }
+    .walletWrapper{
+        flex-direction: column;
+    }
+    .bottomSection{
+        flex-direction: column;
+    }
+    .transaction{
+        width: 100%;
+    }
+    .pieData{
+        width: 100%;
+    }
+        
+    
+}

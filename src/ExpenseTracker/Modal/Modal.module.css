@@ -1,0 +1,42 @@
+.modalWrapper{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color:  #FFFFFFC4;
+}
+
+
+.container{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    border-radius: 10px;
+    height: 150px;
+    transform: translate(-50%,-50%);
+    background-color: #EFEFEFD9;
+ 
+    color: black;
+
+} 
+ button{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+    border: none;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.inputDiv{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    margin-left: 1rem;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
