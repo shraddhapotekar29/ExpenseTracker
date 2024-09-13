@@ -21,9 +21,9 @@ const Pagination=({totalPosts,postPerPage,setCurrentPage,currentPage})=>{
     }
 
     return(<div>
-        <button onClick={prevPage} ><img src={leftArr}/></button>
-        <button style={{backgroundColor: "#43967B",borderRadius:"8px" }}>{currentPage}</button>
-        <button onClick={nextPage}><img src={rightArr}/></button>
+        <button onClick={prevPage}><img src={leftArr} width={20} height={20}/></button>
+        <button style={{backgroundColor: "#43967B",borderRadius:"8px",width:"40px",height:"40px" }}>{currentPage}</button>
+        <button onClick={nextPage}><img src={rightArr} width={20} height={20}/></button>
         </div>)
 }
 export default Pagination;

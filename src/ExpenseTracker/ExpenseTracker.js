@@ -13,6 +13,9 @@ const ExpenseTracker = () => {
     const [balance, setBalance] = useState(Number(localStorage.getItem("balance")))
     const [formData, setFormData] = useState([]);
 
+    useEffect(()=>{
+        localStorage.setItem("balance",5000);
+    },[])
     useEffect(() => {
         const localExpense = localStorage.getItem("formData");
         let expenseData = [];
@@ -46,6 +49,7 @@ const ExpenseTracker = () => {
         }
         return data;
     }, []);
+
 
 
     console.log("formData", formData)
